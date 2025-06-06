@@ -55,7 +55,7 @@ pessoa = {
 }
 print(f"{pessoa['nome']} tem {pessoa['idade']} anos e é {pessoa['profissao']}")
 
-'''
+
 # 8. Peca ao usuário um número e diga se ele é par ou ímpar.
 
 numero = int(input("Digite um número: "))
@@ -63,3 +63,11 @@ if numero % 2 == 0:
     print(f"O número {numero} é par.")
 else:
     print(f"O número {numero} é ímpar.")
+
+'''
+
+# 9. Peca uma palavra e diga quantas vogais ela tem.
+palavra = input("Digite uma palavra: ")
+vogais = "aeiouAEIOU"
+contador_vogais = sum(1 for letra in palavra if letra in vogais)
+print(f"A palavra '{palavra}' tem {contador_vogais} vogais.")
