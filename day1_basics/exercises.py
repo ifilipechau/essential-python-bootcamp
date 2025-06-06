@@ -72,10 +72,19 @@ vogais = "aeiouAEIOU"
 contador_vogais = sum(1 for letra in palavra if letra in vogais) # Contagem de vogais usando compreensão de lista
 print(f"A palavra '{palavra}' tem {contador_vogais} vogais.")
 
-'''
 
 # 10. Converta a idade em anos para  meses e dias (suponha 365 dias por ano).
 idade = int(input("Digite sua idade em anos: "))
 meses = idade * 12
 dias = idade * 365
 print(f"Sua idade em meses é {meses} e em dias é {dias}")
+
+'''
+# 10. Desafio: Crie um script que pergunta o nome completo do usuário e imprime:
+# - Quantas letras tem (sem espacos)
+# - Primeira letra
+# - Última letra
+
+nome_completo = input("Digite seu nome completo:  ").strip()
+num_letras = len(nome_completo)
+print(f"O teu nome tem {num_letras} letras, a primeira letra é: {nome_completo[0]}, e a última letra é: {nome_completo[-1]} ")
