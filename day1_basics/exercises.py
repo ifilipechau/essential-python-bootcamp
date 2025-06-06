@@ -31,11 +31,16 @@ palavra = frase.split()[2]
 
 print(f".. e a palavra mágica é {palavra}")
 
-'''
-
 # 5. Dada a string "     dados limpos      ", limpe os espaços e transforme em maiúsculas.
 
 dados = "    dados limpos    "
 dados_limpos = dados.strip().upper()
 print(f"Este é o dado antes de limpar: '{dados}'")
-print(f"Dado limpo este: {dados_limpos}")
+print(f"E este é o dado limpo: {dados_limpos}")
+
+'''
+
+# 6. Crie uma lista com 5 frutas. Imprima a segunda e a última.
+
+frutas = ["maçã", "banana", "laranja", "uva", "papaia"]
+print(f"A segunda fruta é: {frutas[1]}")
