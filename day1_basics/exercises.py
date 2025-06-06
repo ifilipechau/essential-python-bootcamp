@@ -1,5 +1,6 @@
 # Dia 1 - Exercícios
 
+'''
 # 1. Crie variáveis para nome, idade e cidade e imprima: "Olá, eu sou NOME, tenho IDADE anos e vivo em CIDADE."
 
 nome = "Alexandre"
@@ -30,8 +31,11 @@ palavra = frase.split()[2]
 
 print(f".. e a palavra mágica é {palavra}")
 
+'''
+
 # 5. Dada a string "     dados limpos      ", limpe os espaços e transforme em maiúsculas.
 
 dados = "    dados limpos    "
 dados_limpos = dados.strip().upper()
+print(f"Este é o dado antes de limpar: '{dados}'")
 print(f"Dado limpo este: {dados_limpos}")
