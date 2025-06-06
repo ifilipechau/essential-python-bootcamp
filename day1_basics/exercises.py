@@ -38,9 +38,19 @@ dados_limpos = dados.strip().upper()
 print(f"Este é o dado antes de limpar: '{dados}'")
 print(f"E este é o dado limpo: {dados_limpos}")
 
-'''
 
 # 6. Crie uma lista com 5 frutas. Imprima a segunda e a última.
 
 frutas = ["maçã", "banana", "laranja", "uva", "papaia"]
 print(f"A segunda fruta é: {frutas[1]}, e a última é: {frutas[-1]}")
+
+'''
+
+# 7. Crie um dicionário com informações de uma pessoa (nome, idade, profissão) e imprima uma frase com os dados
+
+pessoa = {
+    "nome": "Quitéria",
+    "idade": 61,
+    "profissao": "Engenheira"
+}
+print(f"{pessoa['nome']} tem {pessoa['idade']} anos e é {pessoa['profissao']}")
