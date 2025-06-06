@@ -64,10 +64,18 @@ if numero % 2 == 0:
 else:
     print(f"O número {numero} é ímpar.")
 
-'''
+
 
 # 9. Peca uma palavra e diga quantas vogais ela tem.
 palavra = input("Digite uma palavra: ")
 vogais = "aeiouAEIOU"
-contador_vogais = sum(1 for letra in palavra if letra in vogais)
+contador_vogais = sum(1 for letra in palavra if letra in vogais) # Contagem de vogais usando compreensão de lista
 print(f"A palavra '{palavra}' tem {contador_vogais} vogais.")
+
+'''
+
+# 10. Converta a idade em anos para  meses e dias (suponha 365 dias por ano).
+idade = int(input("Digite sua idade em anos: "))
+meses = idade * 12
+dias = idade * 365
+print(f"Sua idade em meses é {meses} e em dias é {dias}")
