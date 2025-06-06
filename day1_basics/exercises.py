@@ -43,4 +43,4 @@ print(f"E este é o dado limpo: {dados_limpos}")
 # 6. Crie uma lista com 5 frutas. Imprima a segunda e a última.
 
 frutas = ["maçã", "banana", "laranja", "uva", "papaia"]
-print(f"A segunda fruta é: {frutas[1]}")
+print(f"A segunda fruta é: {frutas[1]}, e a última é: {frutas[-1]}")
