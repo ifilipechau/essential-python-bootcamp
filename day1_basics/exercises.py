@@ -44,7 +44,7 @@ print(f"E este é o dado limpo: {dados_limpos}")
 frutas = ["maçã", "banana", "laranja", "uva", "papaia"]
 print(f"A segunda fruta é: {frutas[1]}, e a última é: {frutas[-1]}")
 
-'''
+
 
 # 7. Crie um dicionário com informações de uma pessoa (nome, idade, profissão) e imprima uma frase com os dados
 
@@ -54,3 +54,12 @@ pessoa = {
     "profissao": "Engenheira"
 }
 print(f"{pessoa['nome']} tem {pessoa['idade']} anos e é {pessoa['profissao']}")
+
+'''
+# 8. Peca ao usuário um número e diga se ele é par ou ímpar.
+
+numero = int(input("Digite um número: "))
+if numero % 2 == 0:
+    print(f"O número {numero} é par.")
+else:
+    print(f"O número {numero} é ímpar.")
