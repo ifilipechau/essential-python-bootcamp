@@ -29,3 +29,9 @@ frase = "Python é incrível!"
 palavra = frase.split()[2]
 
 print(f".. e a palavra mágica é {palavra}")
+
+# 5. Dada a string "     dados limpos      ", limpe os espaços e transforme em maiúsculas.
+
+dados = "    dados limpos    "
+dados_limpos = dados.strip().upper()
+print(f"Dado limpo este: {dados_limpos}")
