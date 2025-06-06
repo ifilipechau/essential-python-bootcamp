@@ -28,4 +28,4 @@ print(f"A soma de {num1} e {num2} é {soma}.")
 frase = "Python é incrível!"
 palavra = frase.split()[2]
 
-print(f"{palavra}")
+print(f".. e a palavra mágica é {palavra}")
