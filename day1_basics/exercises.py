@@ -1,6 +1,5 @@
 # Dia 1 - Exercícios
 
-'''
 # 1. Crie variáveis para nome, idade e cidade e imprima: "Olá, eu sou NOME, tenho IDADE anos e vivo em CIDADE."
 
 nome = "Alexandre"
@@ -79,8 +78,8 @@ meses = idade * 12
 dias = idade * 365
 print(f"Sua idade em meses é {meses} e em dias é {dias}")
 
-'''
-# 10. Desafio: Crie um script que pergunta o nome completo do usuário e imprime:
+
+# 11. Desafio: Crie um script que pergunta o nome completo do usuário e imprime:
 # - Quantas letras tem (sem espacos)
 # - Primeira letra
 # - Última letra
